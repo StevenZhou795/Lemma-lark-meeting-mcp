@@ -1,0 +1,17 @@
+{
+    "url":  "https://ysgjyjx6z20y.sg.larksuite.com/base/FLnbbaiBpaJwxWsi8yXlFpb3gyb?table=tblSGzNtCWry40ma\u0026view=vewVtb6YtR",
+    "app_token":  "FLnbbaiBpaJwxWsi8yXlFpb3gyb",
+    "table_id":  "tblSGzNtCWry40ma",
+    "view_id":  "vewVtb6YtR",
+    "timezone":  "UTC+08:00",
+    "field_roles":  [
+                        "task",
+                        "owner",
+                        "priority",
+                        "deadline"
+                    ],
+    "status":  "28_tasks_project_owner_verified_5_candidates_pending",
+    "last_import_receipt":  "receipt-20261125.local.json",
+    "latest_revision_receipt":  "receipt-project-owner-revision.local.json",
+    "latest_overwrite_receipt":  "overwrite-13-receipt.local.json"
+}

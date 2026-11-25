@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "lark_meeting_tasks": {
+      "command": "powershell.exe",
+      "args": [
+        "-NoLogo",
+        "-NoProfile",
+        "-NonInteractive",
+        "-File",
+        "J:/Vismed/Lemma-Website/testing/lark-meeting-mcp/start.ps1"
+      ]
+    }
+  }
+}

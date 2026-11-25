@@ -1,0 +1,13 @@
+.env
+*.local.clixml
+credentials.local.clixml.*
+*.local.json
+*.local.md
+*.local.toml
+schema.json
+existing-records.json
+payload.json
+receipt.json
+node_modules/
+__pycache__/
+/Lemma-lark-task-mcp/

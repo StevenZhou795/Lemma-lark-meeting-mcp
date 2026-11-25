@@ -1,0 +1,24 @@
+{
+  "fields": {
+    "task": null,
+    "project": null,
+    "owner": null,
+    "priority": null,
+    "deadline": null
+  },
+  "start_date_policy": "omit",
+  "owners": {},
+  "owner_aliases": {
+    "sitter": "Zita"
+  },
+  "allow_update_existing_records": false,
+  "existing_record_ids": {},
+  "project_options_to_create": [],
+  "priorities": {
+    "high": null,
+    "normal": null
+  },
+  "meeting_dates": {},
+  "task_overrides": {},
+  "selected_task_ids": []
+}

@@ -1,0 +1,7 @@
+# Merge this section into the Codex MCP configuration; do not replace the whole file.
+[mcp_servers.lark_meeting_tasks]
+command = "powershell.exe"
+args = ["-NoLogo", "-NoProfile", "-NonInteractive", "-File", "J:/Vismed/Lemma-Website/testing/lark-meeting-mcp/start.ps1"]
+env_vars = ["APP_ID", "APP_SECRET"]
+startup_timeout_sec = 120
+tool_timeout_sec = 120

@@ -1,0 +1,1564 @@
+{
+    "status":  "28_tasks_project_owner_verified_5_candidates_pending_2_excluded",
+    "scope":  "Crystal 2、4、6，以及盛緻苑實體班；用户要求先查重",
+    "start_date_policy":  "本次不填写；以后新任务使用处理当天 UTC+08:00 的日期，已存在任务不重置 start date",
+    "deadline_policy":  "会议日期未知；保留原话，不用处理当天换算历史会议的相对 deadline",
+    "priority_policy":  "high/normal 均为 AI 建议，尚未映射到真实 Priority 标签",
+    "owner_policy":  "owner_candidate 不是已核实的 Lark 人员；Crystal 4/6 的说话人标签混用，需核实身份",
+    "tasks":  [
+                  {
+                      "id":  "SZY-01",
+                      "source_file":  "盛緻苑實體班.txt",
+                      "project":  "盛緻苑實體班",
+                      "task":  "向 Philip 确认新仓库场地能否在星期日举办实体班及使用时段限制",
+                      "owner_candidate":  "Trinity",
+                      "decision_status":  "action",
+                      "priority_suggestion":  "normal",
+                      "deadline":  null,
+                      "deadline_raw":  null,
+                      "evidence":  [
+                                       {
+                                           "line":  166,
+                                           "quote":  "咁我會再睇一睇。其實星期日係咪真係完全無可能定係點",
+                                           "verbatim_source_line":  "Trinity: 咁我會再睇一睇。其實星期日係咪真係完全無可能定係點，但係夜晚就可能真係未必方便嗰到額。",
+                                           "source_time":  "00:21:07.000 --\u003e 00:21:18.000"
+                                       },
+                                       {
+                                           "line":  178,
+                                           "quote":  "咁呢個我再同阿philip確定一下",
+                                           "verbatim_source_line":  "Trinity: 咁呢個我再同阿philip確定一下。不過呢個純粹係一個additional啦。咁我哋照舊以後都繼續喺科學園開都冇所謂嘅，只不過係即係多咗一個咁嘅地方，我哋可以去用。",
+                                           "source_time":  "00:21:28.000 --\u003e 00:21:43.000"
+                                       }
+                                   ],
+                      "import_status":  "updated_project_owner_readback_verified",
+                      "record_id":  "reczz28dlJzT6rFB",
+                      "owner_candidates":  [
+                                               "Trinity"
+                                           ],
+                      "unresolved_related_people":  [
+                                                        "Philip"
+                                                    ],
+                      "owner_assignment_basis":  "用户新规则：明确负责人或任务上下文相关参与者；身份映射核实不等于唯一责任已确认。",
+                      "revision_status":  "project_owner_readback_verified"
+                  },
+                  {
+                      "id":  "SZY-02",
+                      "source_file":  "盛緻苑實體班.txt",
+                      "project":  "盛緻苑實體班",
+                      "task":  "确认 KOL 与有意参加业主的时间，并落实盛緻苑实体班安排",
+                      "owner_candidate":  "Trinity",
+                      "decision_status":  "action",
+                      "priority_suggestion":  "high",
+                      "deadline":  null,
+                      "deadline_raw":  "今天先问相关人士；最后讨论为8号开班，月份和年份未明",
+                      "evidence":  [
+                                       {
+                                           "line":  226,
+                                           "quote":  "我先去問下我哋個啲kol嘅時間，同埋之前有問過嘅客人",
+                                           "verbatim_source_line":  "Trinity: 嗯，好，咁而家大致方向都確定咗啦。咁跟住落嚟個action plan。就係我，我先去問下我哋個啲kol嘅時間，同埋之前有問過嘅客人咁確定咗時間之後就可能afraid去問一下。",
+                                           "source_time":  "00:23:41.000 --\u003e 00:23:59.000"
+                                       },
+                                       {
+                                           "line":  1111,
+                                           "quote":  "最好就是今天可以问一下那几个人",
+                                           "verbatim_source_line":  "JIAYU LIU: 那我觉得最好就是今天可以问一下那几个人，然后我们就可以在群里面投票，或者是谁去当一下水军就是引用一下之前的那个东西。问，引用一下有没有下一场实体班之类的东西了。",
+                                           "source_time":  "00:48:38.000 --\u003e 00:48:53.000"
+                                       }
+                                   ],
+                      "notes":  "不另建7/8号投票任务；后文已改成直接宣传8号。8号是活动日，不自动视作此任务deadline。",
+                      "import_status":  "updated_project_owner_readback_verified",
+                      "record_id":  "reczz28dlJzT7UEq",
+                      "owner_candidates":  [
+                                               "Trinity"
+                                           ],
+                      "owner_assignment_basis":  "用户新规则：明确负责人或任务上下文相关参与者；身份映射核实不等于唯一责任已确认。",
+                      "revision_status":  "project_owner_readback_verified"
+                  },
+                  {
+                      "id":  "SZY-03",
+                      "source_file":  "盛緻苑實體班.txt",
+                      "project":  "盛緻苑實體班",
+                      "decision_status":  "action",
+                      "priority_suggestion":  "high",
+                      "deadline":  null,
+                      "deadline_raw":  "日期落实后尽快联系；实体班前",
+                      "evidence":  [
+                                       {
+                                           "line":  682,
+                                           "quote":  "你去聯繫一下self那邊…哪些產品比較值得擺",
+                                           "verbatim_source_line":  "Trinity: 嗯，然後那可能你去聯繫一下self那邊就看一下，可因為產品你比較熟悉哪些產品比較值得擺，然後還有就可能要邀請他幾好棒過來。",
+                                           "source_time":  "00:35:36.000 --\u003e 00:35:49.000"
+                                       },
+                                       {
+                                           "line":  685,
+                                           "quote":  "可以啊",
+                                           "verbatim_source_line":  "JIAYU LIU: 可以啊。",
+                                           "source_time":  "00:35:42.000 --\u003e 00:35:44.000"
+                                       },
+                                       {
+                                           "line":  721,
+                                           "quote":  "希望佢哋再加多一到兩個人手來sell",
+                                           "verbatim_source_line":  "Trinity: 同埋我想再講下人手嗰方面，因為講書之外我覺得都要希望佢哋再加多一到兩個人手來sell。",
+                                           "source_time":  "00:36:32.000 --\u003e 00:36:42.000"
+                                       }
+                                   ],
+                      "notes":  "合作商名称转写不清；JIAYU LIU 与 Fred 的别名关系需核实。",
+                      "task":  "联系产品合作商，确认实体班展示产品及产品讲解与销售人手",
+                      "owner_candidate":  "Jiayu Liu",
+                      "import_status":  "updated_project_owner_readback_verified",
+                      "record_id":  "reczz28dlJzT79RD",
+                      "owner_candidates":  [
+                                               "Jiayu Liu"
+                                           ],
+                      "owner_assignment_basis":  "用户新规则：明确负责人或任务上下文相关参与者；身份映射核实不等于唯一责任已确认。",
+                      "revision_status":  "project_owner_readback_verified"
+                  },
+                  {
+                      "id":  "SZY-04",
+                      "source_file":  "盛緻苑實體班.txt",
+                      "project":  "盛緻苑實體班",
+                      "task":  "联系两位装修合作伙伴，确认参加实体班的时间",
+                      "owner_candidate":  "Trinity",
+                      "decision_status":  "action",
+                      "priority_suggestion":  "high",
+                      "deadline":  null,
+                      "deadline_raw":  "确认实体班日期后尽快",
+                      "evidence":  [
+                                       {
+                                           "line":  1237,
+                                           "quote":  "Trinity: 我去問下嗰兩個裝修嘅partner。",
+                                           "verbatim_source_line":  "Trinity: 我去問下嗰兩個裝修嘅partner。",
+                                           "source_time":  "00:50:43.000 --\u003e 00:50:47.000"
+                                       }
+                                   ],
+                      "import_status":  "updated_project_owner_readback_verified",
+                      "record_id":  "reczz28dlJzT6hfb",
+                      "owner_candidates":  [
+                                               "Trinity"
+                                           ],
+                      "owner_assignment_basis":  "用户新规则：明确负责人或任务上下文相关参与者；身份映射核实不等于唯一责任已确认。",
+                      "revision_status":  "project_owner_readback_verified"
+                  },
+                  {
+                      "id":  "SZY-05",
+                      "source_file":  "盛緻苑實體班.txt",
+                      "project":  "盛緻苑實體班",
+                      "task":  "根据业主近期关注的话题制定实体班推广策略与内容",
+                      "decision_status":  "action",
+                      "priority_suggestion":  "high",
+                      "deadline":  null,
+                      "deadline_raw":  "实体班宣传前",
+                      "evidence":  [
+                                       {
+                                           "line":  1243,
+                                           "quote":  "我睇下大家呢排比較關心嘅話題，然之後我哋去做幾個strategy，睇下點樣去做啲promotion",
+                                           "verbatim_source_line":  "JIAYU LIU: 好咁後面啦。我睇下大家呢排比較關心嘅話題，然之後我哋去做幾個strategy，睇下點樣去做啲promotion咯。",
+                                           "source_time":  "00:50:46.000 --\u003e 00:50:56.000"
+                                       }
+                                   ],
+                      "owner_candidate":  "Jiayu Liu",
+                      "import_status":  "updated_project_owner_readback_verified",
+                      "record_id":  "reczz28dlJzT7GAz",
+                      "owner_candidates":  [
+                                               "Jiayu Liu"
+                                           ],
+                      "owner_assignment_basis":  "用户新规则：明确负责人或任务上下文相关参与者；身份映射核实不等于唯一责任已确认。",
+                      "revision_status":  "project_owner_readback_verified"
+                  },
+                  {
+                      "id":  "SZY-06",
+                      "source_file":  "盛緻苑實體班.txt",
+                      "project":  "盛緻苑實體班",
+                      "decision_status":  "action",
+                      "priority_suggestion":  "normal",
+                      "deadline":  null,
+                      "deadline_raw":  "实体班前",
+                      "evidence":  [
+                                       {
+                                           "line":  1252,
+                                           "quote":  "我哋要準備啲material都係好重要",
+                                           "verbatim_source_line":  "JIAYU LIU: 哦，同埋我哋要準備啲material都係好重要啊，因為因為之前我哋實體班如果send資料資料多出嚟嘅話都係觀感會比較好。咁都要準備一下有咩資料準備喎。",
+                                           "source_time":  "00:50:58.000 --\u003e 00:51:12.000"
+                                       },
+                                       {
+                                           "line":  1261,
+                                           "quote":  "啲價錢表嗰啲有機會已經又更新咗",
+                                           "verbatim_source_line":  "Trinity: 啲價錢表嗰啲有機會已經又更新咗。或者咩呢？咁我哋變咗舊時印低，有啲喺會展嗰啲係。",
+                                           "source_time":  "00:51:16.000 --\u003e 00:51:26.000"
+                                       },
+                                       {
+                                           "line":  1267,
+                                           "quote":  "JIAYU LIU: 嗯，嗰啲嗰啲應該可以用翻嘅。",
+                                           "verbatim_source_line":  "JIAYU LIU: 嗯，嗰啲嗰啲應該可以用翻嘅。",
+                                           "source_time":  "00:51:31.000 --\u003e 00:51:35.000"
+                                       },
+                                       {
+                                           "line":  1273,
+                                           "quote":  "JIAYU LIU: 我聽日返去睇嚇。",
+                                           "verbatim_source_line":  "JIAYU LIU: 我聽日返去睇嚇。",
+                                           "source_time":  "00:51:35.000 --\u003e 00:51:37.000"
+                                       }
+                                   ],
+                      "task":  "准备实体班派发资料，并核对更新后的产品价格表",
+                      "owner_candidate":  "Jiayu Liu",
+                      "notes":  "按用户新规则，将共同讨论和承接资料准备的 Jiayu Liu、Trinity 并列加入 Owner；不认定唯一负责人。",
+                      "import_status":  "updated_project_owner_readback_verified",
+                      "record_id":  "reczz28dlJzT4V5g",
+                      "owner_candidates":  [
+                                               "Jiayu Liu",
+                                               "Trinity"
+                                           ],
+                      "owner_context_evidence":  [
+                                                     {
+                                                         "line":  1252,
+                                                         "quote":  "JIAYU LIU: 哦，同埋我哋要準備啲material都係好重要啊，因為因為之前我哋實體班如果send資料資料多出嚟嘅話都係觀感會比較好。咁都要準備一下有咩資料準備喎。",
+                                                         "verbatim_source_line":  "JIAYU LIU: 哦，同埋我哋要準備啲material都係好重要啊，因為因為之前我哋實體班如果send資料資料多出嚟嘅話都係觀感會比較好。咁都要準備一下有咩資料準備喎。",
+                                                         "source_time":  "00:50:58.000 --\u003e 00:51:12.000"
+                                                     },
+                                                     {
+                                                         "line":  1261,
+                                                         "quote":  "Trinity: 啲價錢表嗰啲有機會已經又更新咗。或者咩呢？咁我哋變咗舊時印低，有啲喺會展嗰啲係。",
+                                                         "verbatim_source_line":  "Trinity: 啲價錢表嗰啲有機會已經又更新咗。或者咩呢？咁我哋變咗舊時印低，有啲喺會展嗰啲係。",
+                                                         "source_time":  "00:51:16.000 --\u003e 00:51:26.000"
+                                                     },
+                                                     {
+                                                         "line":  1273,
+                                                         "quote":  "JIAYU LIU: 我聽日返去睇嚇。",
+                                                         "verbatim_source_line":  "JIAYU LIU: 我聽日返去睇嚇。",
+                                                         "source_time":  "00:51:35.000 --\u003e 00:51:37.000"
+                                                     }
+                                                 ],
+                      "owner_assignment_basis":  "用户新规则：明确负责人或任务上下文相关参与者；身份映射核实不等于唯一责任已确认。",
+                      "revision_status":  "project_owner_readback_verified"
+                  },
+                  {
+                      "id":  "SZY-07",
+                      "source_file":  "盛緻苑實體班.txt",
+                      "project":  "盛緻苑實體班",
+                      "task":  "向 Philip 确认能否借出花洒 demo 供实体班展示",
+                      "owner_candidate":  "Trinity",
+                      "decision_status":  "action",
+                      "priority_suggestion":  "normal",
+                      "deadline":  null,
+                      "deadline_raw":  "实体班前",
+                      "evidence":  [
+                                       {
+                                           "line":  898,
+                                           "quote":  "我睇嚇可唔可以實體班的話，我哋就攞埋啊philip而家有嗰舊demo過嚟",
+                                           "verbatim_source_line":  "Trinity: 咁我睇嚇可唔可以實體班的話，我哋就攞埋啊philip而家有嗰舊demo過嚟。",
+                                           "source_time":  "00:43:13.000 --\u003e 00:43:21.000"
+                                       }
+                                   ],
+                      "notes":  "任务是确认能否借出，不代表 demo 已落实。",
+                      "import_status":  "updated_project_owner_readback_verified",
+                      "record_id":  "reczz28dlJzT5arx",
+                      "owner_candidates":  [
+                                               "Trinity"
+                                           ],
+                      "unresolved_related_people":  [
+                                                        "Philip"
+                                                    ],
+                      "owner_assignment_basis":  "用户新规则：明确负责人或任务上下文相关参与者；身份映射核实不等于唯一责任已确认。",
+                      "revision_status":  "project_owner_readback_verified"
+                  },
+                  {
+                      "id":  "C2-01",
+                      "source_file":  "Crystal的Zoom會議2.txt",
+                      "project":  "實體班與直播籌備",
+                      "task":  "制定实体班前的直播与 Zoom 内容排期",
+                      "owner_candidate":  "Crystal",
+                      "decision_status":  "action",
+                      "priority_suggestion":  "normal",
+                      "deadline":  null,
+                      "deadline_raw":  "实体班前两三周；实体班讨论涉及12月但无明确年份",
+                      "evidence":  [
+                                       {
+                                           "line":  796,
+                                           "quote":  "可以開始set個timetable啦。咁我就去安排嗰啲直播嘅內容",
+                                           "verbatim_source_line":  "Crystal: 係喇，咁就可以開始set個timetable啦。咁我就去安排嗰啲直播嘅內容。",
+                                           "source_time":  "00:34:54.000 --\u003e 00:35:00.000"
+                                       }
+                                   ],
+                      "import_status":  "updated_project_owner_readback_verified",
+                      "record_id":  "reczz28dlJzT4q5p",
+                      "owner_candidates":  [
+                                               "Crystal"
+                                           ],
+                      "owner_assignment_basis":  "用户新规则：明确负责人或任务上下文相关参与者；身份映射核实不等于唯一责任已确认。",
+                      "revision_status":  "project_owner_readback_verified"
+                  },
+                  {
+                      "id":  "C2-02",
+                      "source_file":  "Crystal的Zoom會議2.txt",
+                      "project":  "實體班與直播籌備",
+                      "task":  "向 Cindy 和 Gigi 确认实体班可携带的物料样板及样板书",
+                      "decision_status":  "action",
+                      "priority_suggestion":  "normal",
+                      "deadline":  null,
+                      "deadline_raw":  "实体班前",
+                      "evidence":  [
+                                       {
+                                           "line":  751,
+                                           "quote":  "我哋係咪可以叫cindy同gigi帶啲樣板過嚟呢",
+                                           "verbatim_source_line":  "Trinity: 同埋啱啱講到物料嗰度，其實我哋係咪可以叫cindy同gigi帶啲樣板過嚟呢？因為cindy之前都有帶過嗰啲書。",
+                                           "source_time":  "00:34:16.000 --\u003e 00:34:27.000"
+                                       },
+                                       {
+                                           "line":  769,
+                                           "quote":  "今次就可能叫佢帶一啲樣板嘅書",
+                                           "verbatim_source_line":  "Trinity: 係佢哋都誒？每次都有問我話洗唔洗帶啲乜嘢嘅，咁我哋今次就可能叫佢帶一啲樣板嘅書，咁等業主可以摸。",
+                                           "source_time":  "00:34:36.000 --\u003e 00:34:46.000"
+                                       }
+                                   ],
+                      "owner_candidate":  null,
+                      "notes":  "方案已获一般认同；按用户新规则由该任务段落的 Trinity、Crystal 共同跟进。Cindy、Gigi 尚无已核实人员ID，保留为相关方。",
+                      "import_status":  "created_with_project_and_owners_readback_verified",
+                      "owner_candidates":  [
+                                               "Trinity",
+                                               "Crystal"
+                                           ],
+                      "unresolved_related_people":  [
+                                                        "Cindy",
+                                                        "Gigi"
+                                                    ],
+                      "owner_context_evidence":  [
+                                                     {
+                                                         "line":  751,
+                                                         "quote":  "Trinity: 同埋啱啱講到物料嗰度，其實我哋係咪可以叫cindy同gigi帶啲樣板過嚟呢？因為cindy之前都有帶過嗰啲書。",
+                                                         "verbatim_source_line":  "Trinity: 同埋啱啱講到物料嗰度，其實我哋係咪可以叫cindy同gigi帶啲樣板過嚟呢？因為cindy之前都有帶過嗰啲書。",
+                                                         "source_time":  "00:34:16.000 --\u003e 00:34:27.000"
+                                                     },
+                                                     {
+                                                         "line":  769,
+                                                         "quote":  "Trinity: 係佢哋都誒？每次都有問我話洗唔洗帶啲乜嘢嘅，咁我哋今次就可能叫佢帶一啲樣板嘅書，咁等業主可以摸。",
+                                                         "verbatim_source_line":  "Trinity: 係佢哋都誒？每次都有問我話洗唔洗帶啲乜嘢嘅，咁我哋今次就可能叫佢帶一啲樣板嘅書，咁等業主可以摸。",
+                                                         "source_time":  "00:34:36.000 --\u003e 00:34:46.000"
+                                                     },
+                                                     {
+                                                         "line":  781,
+                                                         "quote":  "Crystal: 大家帶啲物料嗰啲嘢過嚟，咁佢哋可以有得睇。",
+                                                         "verbatim_source_line":  "Crystal: 大家帶啲物料嗰啲嘢過嚟，咁佢哋可以有得睇。",
+                                                         "source_time":  "00:34:45.000 --\u003e 00:34:50.000"
+                                                     },
+                                                     {
+                                                         "line":  808,
+                                                         "quote":  "Trinity: 係呀，我哋可以先做咗先，根據呢啲簡單嘅資料。",
+                                                         "verbatim_source_line":  "Trinity: 係呀，我哋可以先做咗先，根據呢啲簡單嘅資料。",
+                                                         "source_time":  "00:35:14.000 --\u003e 00:35:19.000"
+                                                     }
+                                                 ],
+                      "owner_assignment_basis":  "用户新规则：明确负责人或任务上下文相关参与者；身份映射核实不等于唯一责任已确认。",
+                      "record_id":  "reczz28dljgaOel9",
+                      "revision_status":  "project_owner_readback_verified"
+                  },
+                  {
+                      "id":  "C2-03",
+                      "source_file":  "Crystal的Zoom會議2.txt",
+                      "project":  "產品購買流程",
+                      "task":  "为需要在合作商网站下单的产品配置对应购买跳转链接",
+                      "owner_candidate":  "Steven",
+                      "decision_status":  "action",
+                      "priority_suggestion":  "normal",
+                      "deadline":  null,
+                      "deadline_raw":  null,
+                      "evidence":  [
+                                       {
+                                           "line":  1621,
+                                           "quote":  "將呢一類嘅產品購買嗰粒制變咗撳一下就會彈咗去佢哋果邊",
+                                           "verbatim_source_line":  "Crystal: 咁呢，就會去a home買吖嘛。咁我哋可唔可以將呢一類嘅產品購買嗰粒制變咗撳一下就會彈咗去佢哋果邊。咁樣。哦。可以其他果啲產品就照舊。",
+                                           "source_time":  "01:02:52.000 --\u003e 01:03:07.000"
+                                       },
+                                       {
+                                           "line":  1633,
+                                           "quote":  "可以一開始俾啲資料steven開始先",
+                                           "verbatim_source_line":  "Crystal: 好就咁咁所以可以一開始俾啲資料steven開始先。",
+                                           "source_time":  "01:03:20.000 --\u003e 01:03:28.000"
+                                       }
+                                   ],
+                      "notes":  "记录任务不代表本次获授权修改网站；所需合作商链接与资料待补齐。",
+                      "import_status":  "created_with_project_and_owners_readback_verified",
+                      "owner_candidates":  [
+                                               "Crystal"
+                                           ],
+                      "unresolved_related_people":  [
+                                                        "Steven"
+                                                    ],
+                      "owner_context_evidence":  [
+                                                     {
+                                                         "line":  1621,
+                                                         "quote":  "Crystal: 咁呢，就會去a home買吖嘛。咁我哋可唔可以將呢一類嘅產品購買嗰粒制變咗撳一下就會彈咗去佢哋果邊。咁樣。哦。可以其他果啲產品就照舊。",
+                                                         "verbatim_source_line":  "Crystal: 咁呢，就會去a home買吖嘛。咁我哋可唔可以將呢一類嘅產品購買嗰粒制變咗撳一下就會彈咗去佢哋果邊。咁樣。哦。可以其他果啲產品就照舊。",
+                                                         "source_time":  "01:02:52.000 --\u003e 01:03:07.000"
+                                                     },
+                                                     {
+                                                         "line":  1633,
+                                                         "quote":  "Crystal: 好就咁咁所以可以一開始俾啲資料steven開始先。",
+                                                         "verbatim_source_line":  "Crystal: 好就咁咁所以可以一開始俾啲資料steven開始先。",
+                                                         "source_time":  "01:03:20.000 --\u003e 01:03:28.000"
+                                                     }
+                                                 ],
+                      "owner_assignment_basis":  "用户新规则：明确负责人或任务上下文相关参与者；身份映射核实不等于唯一责任已确认。",
+                      "record_id":  "reczz28dljgaON9B",
+                      "revision_status":  "project_owner_readback_verified"
+                  },
+                  {
+                      "id":  "C2-04",
+                      "source_file":  "Crystal的Zoom會議2.txt",
+                      "project":  "會議任務中控台",
+                      "task":  "整理本次会议记录，提供给 Fred 与 Steven 用于任务中控台整合",
+                      "owner_candidate":  "Trinity",
+                      "decision_status":  "action",
+                      "priority_suggestion":  "high",
+                      "deadline":  null,
+                      "deadline_raw":  "今天",
+                      "evidence":  [
+                                       {
+                                           "line":  1768,
+                                           "quote":  "我今天這份會議紀錄可以整理完之後send給fred同埋stephen",
+                                           "verbatim_source_line":  "Trinity: 哦，咁係咪我今天這份會議紀錄可以整理完之後send給fred同埋stephen。",
+                                           "source_time":  "01:06:38.000 --\u003e 01:06:45.000"
+                                       },
+                                       {
+                                           "line":  1774,
+                                           "quote":  "好呀。Okay冇問題",
+                                           "verbatim_source_line":  "Trinity: 好呀。Okay冇問題。",
+                                           "source_time":  "01:06:46.000 --\u003e 01:06:49.000"
+                                       }
+                                   ],
+                      "import_status":  "updated_project_owner_readback_verified",
+                      "record_id":  "reczz28dlJzT5ZPA",
+                      "owner_candidates":  [
+                                               "Trinity"
+                                           ],
+                      "unresolved_related_people":  [
+                                                        "Fred",
+                                                        "Steven"
+                                                    ],
+                      "owner_assignment_basis":  "用户新规则：明确负责人或任务上下文相关参与者；身份映射核实不等于唯一责任已确认。",
+                      "revision_status":  "project_owner_readback_verified"
+                  },
+                  {
+                      "id":  "C2-05",
+                      "source_file":  "Crystal的Zoom會議2.txt",
+                      "project":  "會議任務中控台",
+                      "task":  "建立会议逐字稿提取任务并写入团队中控台的自动化流程",
+                      "owner_candidate":  "Steven",
+                      "decision_status":  "candidate",
+                      "priority_suggestion":  "normal",
+                      "deadline":  null,
+                      "deadline_raw":  null,
+                      "evidence":  [
+                                       {
+                                           "line":  1582,
+                                           "quote":  "應該steven識嘅",
+                                           "verbatim_source_line":  "Crystal: 我唔知我姓，我冇瞭解過，因為佢哋之前咪整整咗嗰個知識庫，然之後可以自動去讀寫啲嘢入去咩佢話係一個道理嘅，咁應該steven識嘅嗰個人。",
+                                           "source_time":  "01:01:08.000 --\u003e 01:01:20.000"
+                                       },
+                                       {
+                                           "line":  1795,
+                                           "quote":  "把我们的每一次会议记录…我们的每个人要做什么事情…丢回我们的装控台",
+                                           "verbatim_source_line":  "Crystal: 把我们的每一次会议记录。然后呢，每个人可能会assign到一些任务。然后那些任务呢，我们就会，我们因为我们录音了，之后会有个稿子出来，然后，我们就想要宣传一个符合说我们的格式，它倒可以自动的把那些我们的每个人要做什么事情，调丢回我们的装控台就还是做一个的自动读，写的一个这样子的东西对实体。",
+                                           "source_time":  "01:07:41.000 --\u003e 01:08:08.000"
+                                       }
+                                   ],
+                      "notes":  "会议中的负责人分派不完整；本次用户明确请求实现这一流程，但不要将实现过程重复导入为新任务。",
+                      "import_status":  "pending_not_written"
+                  },
+                  {
+                      "id":  "C4-01",
+                      "source_file":  "Crystal的Zoom會議4.txt",
+                      "project":  "客戶體驗與溝通",
+                      "task":  "评估将产品自动回复与真人咨询分开，并整理官方号常见问题入口",
+                      "owner_candidate":  null,
+                      "decision_status":  "candidate",
+                      "priority_suggestion":  "normal",
+                      "deadline":  null,
+                      "deadline_raw":  null,
+                      "evidence":  [
+                                       {
+                                           "line":  979,
+                                           "quote":  "嗰個號同net mark姐係本身真人嗰個號分開會比較好啲呢",
+                                           "verbatim_source_line":  "Crystal: 其實我哋之前都有啲ai嗰啲㩒嗰啲button或者嗌你夾帶啲keyword咁樣樣你會唔會覺得嗰個號同net mark姐係本身真人嗰個號分開會比較好啲呢？即係我哋可能send個。",
+                                           "source_time":  "00:51:44.000 --\u003e 00:51:59.000"
+                                       },
+                                       {
+                                           "line":  997,
+                                           "quote":  "執下啲faq喺上面",
+                                           "verbatim_source_line":  "Crystal: 有有電腦即刻過嚟㗎啦，咁可能去到官方號嗰度，我哋就快啲，大家可能面對啲誒。常見嘅問題呀。嗰啲問即係執下啲faq喺上面都可以側邊撳一撳都得。嗯，係喇。",
+                                           "source_time":  "00:52:53.000 --\u003e 00:53:09.000"
+                                       }
+                                   ],
+                      "notes":  "访谈中的方案建议，没有确定分派，不应自动创建执行任务。",
+                      "import_status":  "pending_not_written"
+                  },
+                  {
+                      "id":  "C4-02",
+                      "source_file":  "Crystal的Zoom會議4.txt",
+                      "project":  "裝修服務方案",
+                      "task":  "向深圳样板区合作方询问场地与展示方案的大概价格范围",
+                      "owner_candidate":  null,
+                      "decision_status":  "candidate",
+                      "priority_suggestion":  "normal",
+                      "deadline":  null,
+                      "deadline_raw":  null,
+                      "evidence":  [
+                                       {
+                                           "line":  3178,
+                                           "quote":  "可唔可以問下呢深圳嗰間喺村嗰度…佢大概嘅價格係點樣",
+                                           "verbatim_source_line":  "Crystal: 你會覺得好煩。廚廁嗰啲啊，即係整廁所就問okay唔得。咁可可唔可以問下呢深圳嗰間喺村嗰度咧？佢大概嘅價格係點樣。",
+                                           "source_time":  "02:43:37.000 --\u003e 02:43:55.000"
+                                       }
+                                   ],
+                      "notes":  "提问与建议，未确认具体负责人。",
+                      "import_status":  "pending_not_written"
+                  },
+                  {
+                      "id":  "C4-03",
+                      "source_file":  "Crystal的Zoom會議4.txt",
+                      "project":  "裝修服務方案",
+                      "task":  "收集会议中讨论的厨房与厕所样板参考照片",
+                      "owner_candidate":  null,
+                      "priority_suggestion":  "normal",
+                      "deadline":  null,
+                      "deadline_raw":  null,
+                      "evidence":  [
+                                       {
+                                           "line":  3226,
+                                           "quote":  "我想睇一睇下呢，可以依幾張相俾我哋…後邊呢五六張相",
+                                           "verbatim_source_line":  "Crystal: 得。我想睇一睇下呢，可以依幾張相俾我哋。當時嚟睇鷹派肚臍後邊呢五六張相。",
+                                           "source_time":  "02:45:54.000 --\u003e 02:46:02.000"
+                                       },
+                                       {
+                                           "line":  3238,
+                                           "quote":  "Crystal: 我send個high俾你分。你知道我哋邊一個羣組。",
+                                           "verbatim_source_line":  "Crystal: 我send個high俾你分。你知道我哋邊一個羣組。",
+                                           "source_time":  "02:46:13.000 --\u003e 02:46:17.000"
+                                       },
+                                       {
+                                           "line":  3244,
+                                           "quote":  "Crystal: 我啱啱send咗。",
+                                           "verbatim_source_line":  "Crystal: 我啱啱send咗。",
+                                           "source_time":  "02:46:35.000 --\u003e 02:46:38.000"
+                                       }
+                                   ],
+                      "decision_status":  "completed",
+                      "notes":  "同场后文已表示刚刚发送，不创建未完成待办。",
+                      "import_status":  "excluded_not_written"
+                  },
+                  {
+                      "id":  "C6-01",
+                      "source_file":  "Crystal的Zoom會議6.txt",
+                      "project":  "新屋苑社群獲客",
+                      "task":  "落实外部业主群组内容分发的负责人、日常行动计划及所需设备",
+                      "owner_candidate":  null,
+                      "decision_status":  "action",
+                      "priority_suggestion":  "high",
+                      "deadline":  null,
+                      "deadline_raw":  "现在开始；试行三周后review",
+                      "evidence":  [
+                                       {
+                                           "line":  256,
+                                           "quote":  "assign一個同事…專門派youtube影片，派facebook影片",
+                                           "verbatim_source_line":  "Crystal: 我們要assign一個同事，我們要有一個同事，專門派youtube影片，派facebook影片到別人的facebook羣組和whatsapp羣組之中。",
+                                           "source_time":  "00:30:38.000 --\u003e 00:30:55.000"
+                                       },
+                                       {
+                                           "line":  259,
+                                           "quote":  "訂立一個action plan",
+                                           "verbatim_source_line":  "Crystal: 要有一個同事，咁我哋依家呢，就要assign一個同事去做呢件事，assign咗嗰個同事之後呢？咁就要訂立一個action plan，包括咗係要去買電話卡啦。",
+                                           "source_time":  "00:30:55.000 --\u003e 00:31:06.000"
+                                       },
+                                       {
+                                           "line":  289,
+                                           "quote":  "第一階段…三個星期",
+                                           "verbatim_source_line":  "Crystal: 是紹胡縣和荔葉縣初步第一階段要做的水軍，這個角色是三個星期。",
+                                           "source_time":  "00:33:06.000 --\u003e 00:33:18.000"
+                                       }
+                                   ],
+                      "notes":  "不可将某一发言者当成尚未被指派的执行人；本次不执行内容发布。",
+                      "import_status":  "created_with_project_and_owners_readback_verified",
+                      "owner_candidates":  [
+                                               "Crystal"
+                                           ],
+                      "owner_context_evidence":  [
+                                                     {
+                                                         "line":  262,
+                                                         "quote":  "Crystal: 要幾多部電話要call呀？Crystal買定幾多部電話啦。咁之後呢？就定時定候呢？我哋係每一日可能係派幾多個，派幾多個post落去呢啲嘅羣組之中啦。係啦係啦係啦，咁可能係一日一條。",
+                                                         "verbatim_source_line":  "Crystal: 要幾多部電話要call呀？Crystal買定幾多部電話啦。咁之後呢？就定時定候呢？我哋係每一日可能係派幾多個，派幾多個post落去呢啲嘅羣組之中啦。係啦係啦係啦，咁可能係一日一條。",
+                                                         "source_time":  "00:31:06.000 --\u003e 00:31:24.000"
+                                                     }
+                                                 ],
+                      "owner_assignment_basis":  "用户新规则：明确负责人或任务上下文相关参与者；身份映射核实不等于唯一责任已确认。",
+                      "record_id":  "reczz28dljgaOcid",
+                      "revision_status":  "project_owner_readback_verified"
+                  },
+                  {
+                      "id":  "C6-02",
+                      "source_file":  "Crystal的Zoom會議6.txt",
+                      "project":  "新屋苑社群獲客",
+                      "task":  "更新相关屋苑影片的封面与标题，并挑选现有内容供业主群组分发",
+                      "owner_candidate":  null,
+                      "decision_status":  "action",
+                      "priority_suggestion":  "high",
+                      "deadline":  null,
+                      "deadline_raw":  "接下来一周",
+                      "evidence":  [
+                                       {
+                                           "line":  403,
+                                           "quote":  "做少啲新嘅內容，將我哋已經有嘅內容先試下派出去",
+                                           "verbatim_source_line":  "Crystal: 嗯，咁我就覺得可能我哋依家就做少啲新嘅內容，將我哋已經有嘅內容先試下派出去睇下得唔得，搵啲人返嚟比依家我哋重新做內容多啲，咁樣我覺得可能會。",
+                                           "source_time":  "00:40:55.000 --\u003e 00:41:10.000"
+                                       },
+                                       {
+                                           "line":  412,
+                                           "quote":  "upload部新嘅封面…下邊個title改咗佢",
+                                           "verbatim_source_line":  "Crystal: 即係你可以upload youtube upload部新嘅封面上去啦。咁之後同埋嗰個下邊個title改咗佢囉。",
+                                           "source_time":  "00:41:32.000 --\u003e 00:41:39.000"
+                                       }
+                                   ],
+                      "notes":  "媒体执行人的身份在本会议中未被可靠标签区分。",
+                      "import_status":  "created_with_project_and_owners_readback_verified",
+                      "owner_candidates":  [
+                                               "Crystal",
+                                               "Perry"
+                                           ],
+                      "owner_context_evidence":  [
+                                                     {
+                                                         "line":  385,
+                                                         "quote":  "Crystal: 誒。我哋flat同facebook應該IG都出咗好多段城字院嘅片嗰啲出去啊嘛，但係嗰邊撈翻嚟嘅政治院業主唔係好多，所以呢，我覺得可能會唔會懷疑即係。",
+                                                         "verbatim_source_line":  "Crystal: 誒。我哋flat同facebook應該IG都出咗好多段城字院嘅片嗰啲出去啊嘛，但係嗰邊撈翻嚟嘅政治院業主唔係好多，所以呢，我覺得可能會唔會懷疑即係。",
+                                                         "source_time":  "00:39:25.000 --\u003e 00:39:40.000"
+                                                     },
+                                                     {
+                                                         "line":  388,
+                                                         "quote":  "Crystal: 個。即係呢，下個星期呢個拎起佢唔係跑個糧出去，即係將裝飾整啲片就直接派，但係佢自己就冇做，即係冇再去做啲新嘅糧出嚟，先可以將我哋舊嘅內容掟返好似perry講嗰個業主group裡面去。",
+                                                         "verbatim_source_line":  "Crystal: 個。即係呢，下個星期呢個拎起佢唔係跑個糧出去，即係將裝飾整啲片就直接派，但係佢自己就冇做，即係冇再去做啲新嘅糧出嚟，先可以將我哋舊嘅內容掟返好似perry講嗰個業主group裡面去。",
+                                                         "source_time":  "00:39:40.000 --\u003e 00:39:56.000"
+                                                     },
+                                                     {
+                                                         "line":  421,
+                                                         "quote":  "Crystal: 每個平臺未必需要日日出人手做。",
+                                                         "verbatim_source_line":  "Crystal: 每個平臺未必需要日日出人手做。",
+                                                         "source_time":  "00:42:13.000 --\u003e 00:42:27.000"
+                                                     }
+                                                 ],
+                      "owner_assignment_basis":  "用户新规则：明确负责人或任务上下文相关参与者；身份映射核实不等于唯一责任已确认。",
+                      "record_id":  "reczz28dljgaQx0B",
+                      "revision_status":  "project_owner_readback_verified"
+                  },
+                  {
+                      "id":  "C6-03",
+                      "source_file":  "Crystal的Zoom會議6.txt",
+                      "project":  "安心裝修計劃",
+                      "task":  "为1000元装修优惠券补充清晰的适用日期与资格说明",
+                      "owner_candidate":  null,
+                      "decision_status":  "action",
+                      "priority_suggestion":  "high",
+                      "deadline":  null,
+                      "deadline_raw":  null,
+                      "evidence":  [
+                                       {
+                                           "line":  481,
+                                           "quote":  "一千蚊券嗰度…加嗰個日期落去",
+                                           "verbatim_source_line":  "Crystal: 喺一千蚊券嗰度，我哋要加多一個，就係加嗰個日期落去，因為重售單位呢？涉及到有啲舊嘅業主，咁新嘅業主如果你冇日期嘅話呢？咁真係。",
+                                           "source_time":  "00:45:54.000 --\u003e 00:46:04.000"
+                                       },
+                                       {
+                                           "line":  490,
+                                           "quote":  "二零二六年嘅十一月一號開始…十二月一號",
+                                           "verbatim_source_line":  "Crystal: 一個起效日期，二零二六年嘅十一月一號開始，以免啲人誤會咗。十二月一號，如果呢段期間簽單就會有暱嗰優惠。",
+                                           "source_time":  "00:46:19.000 --\u003e 00:46:35.000"
+                                       }
+                                   ],
+                      "notes":  "原文对起效日期有11月1日/12月1日两种说法；需核对。这是优惠有效期，不是任务deadline。",
+                      "import_status":  "created_with_project_and_owners_readback_verified",
+                      "owner_candidates":  [
+                                               "Crystal"
+                                           ],
+                      "owner_context_evidence":  [
+                                                     {
+                                                         "line":  478,
+                                                         "quote":  "Crystal: Okay？補充少少野先。就係果個一千蚊嘅計劃，針對重售單位。",
+                                                         "verbatim_source_line":  "Crystal: Okay？補充少少野先。就係果個一千蚊嘅計劃，針對重售單位。",
+                                                         "source_time":  "00:45:47.000 --\u003e 00:45:54.000"
+                                                     },
+                                                     {
+                                                         "line":  490,
+                                                         "quote":  "Crystal: 一個起效日期，二零二六年嘅十一月一號開始，以免啲人誤會咗。十二月一號，如果呢段期間簽單就會有暱嗰優惠。",
+                                                         "verbatim_source_line":  "Crystal: 一個起效日期，二零二六年嘅十一月一號開始，以免啲人誤會咗。十二月一號，如果呢段期間簽單就會有暱嗰優惠。",
+                                                         "source_time":  "00:46:19.000 --\u003e 00:46:35.000"
+                                                     },
+                                                     {
+                                                         "line":  493,
+                                                         "quote":  "Crystal: 加上起效日期，以免誤會了回來。針對重售單位。",
+                                                         "verbatim_source_line":  "Crystal: 加上起效日期，以免誤會了回來。針對重售單位。",
+                                                         "source_time":  "00:46:35.000 --\u003e 00:46:52.000"
+                                                     }
+                                                 ],
+                      "owner_assignment_basis":  "用户新规则：明确负责人或任务上下文相关参与者；身份映射核实不等于唯一责任已确认。",
+                      "record_id":  "reczz28dljgaPmjc",
+                      "revision_status":  "project_owner_readback_verified"
+                  },
+                  {
+                      "id":  "C6-04",
+                      "source_file":  "Crystal的Zoom會議6.txt",
+                      "project":  "安心裝修計劃",
+                      "task":  "将安心装修计划推广至已标记的重售单位业主",
+                      "owner_candidate":  null,
+                      "decision_status":  "action",
+                      "priority_suggestion":  "high",
+                      "deadline":  null,
+                      "deadline_raw":  null,
+                      "evidence":  [
+                                       {
+                                           "line":  502,
+                                           "quote":  "再做一次broadcast…安心計劃…俾…單位",
+                                           "verbatim_source_line":  "Crystal: 係喇，一定要做乜咁樣再做一次broadcast，然後將呢個安心計劃forecast俾錦壽單位。果隊。",
+                                           "source_time":  "00:47:16.000 --\u003e 00:47:28.000"
+                                       },
+                                       {
+                                           "line":  508,
+                                           "quote":  "針對這三十個重售單位的業主",
+                                           "verbatim_source_line":  "Crystal: 新的，還有針對這三十個重售單位的業主，看看我們會不會舒服。",
+                                           "source_time":  "00:47:30.000 --\u003e 00:47:42.000"
+                                       }
+                                   ],
+                      "notes":  "只记录工作项；本次不向业主发送消息。",
+                      "import_status":  "created_with_project_and_owners_readback_verified",
+                      "owner_candidates":  [
+                                               "Crystal"
+                                           ],
+                      "owner_context_evidence":  [
+                                                     {
+                                                         "line":  502,
+                                                         "quote":  "Crystal: 係喇，一定要做乜咁樣再做一次broadcast，然後將呢個安心計劃forecast俾錦壽單位。果隊。",
+                                                         "verbatim_source_line":  "Crystal: 係喇，一定要做乜咁樣再做一次broadcast，然後將呢個安心計劃forecast俾錦壽單位。果隊。",
+                                                         "source_time":  "00:47:16.000 --\u003e 00:47:28.000"
+                                                     },
+                                                     {
+                                                         "line":  508,
+                                                         "quote":  "Crystal: 新的，還有針對這三十個重售單位的業主，看看我們會不會舒服。",
+                                                         "verbatim_source_line":  "Crystal: 新的，還有針對這三十個重售單位的業主，看看我們會不會舒服。",
+                                                         "source_time":  "00:47:30.000 --\u003e 00:47:42.000"
+                                                     }
+                                                 ],
+                      "owner_assignment_basis":  "用户新规则：明确负责人或任务上下文相关参与者；身份映射核实不等于唯一责任已确认。",
+                      "record_id":  "reczz28dljgaPGH9",
+                      "revision_status":  "project_owner_readback_verified"
+                  },
+                  {
+                      "id":  "C6-05",
+                      "source_file":  "Crystal的Zoom會議6.txt",
+                      "project":  "活動復盤與營運改善",
+                      "task":  "安排活动效果复盘，制定固定议程并分析内容、筹备成本与客人需求",
+                      "owner_candidate":  null,
+                      "decision_status":  "action",
+                      "priority_suggestion":  "high",
+                      "deadline":  null,
+                      "deadline_raw":  "今个星期",
+                      "evidence":  [
+                                       {
+                                           "line":  790,
+                                           "quote":  "這個反思作為主題的部分，我們這個星期要討論",
+                                           "verbatim_source_line":  "Crystal: 所以這個反思作為主題的部分，我們這個星期要討論的。",
+                                           "source_time":  "01:06:34.000 --\u003e 01:06:45.000"
+                                       },
+                                       {
+                                           "line":  793,
+                                           "quote":  "routine嘅一個agenda同埋一個framework",
+                                           "verbatim_source_line":  "Crystal: 係喇，今個禮拜都嘗試去睇。係呀，同埋可能要有一個好好routine嘅一個agenda同埋一個framework去去做，因為啱啱講到就係究竟係我哋嘅宣傳內容唔啱呀。",
+                                           "source_time":  "01:06:45.000 --\u003e 01:07:00.000"
+                                       }
+                                   ],
+                      "import_status":  "pending_not_written",
+                      "owner_candidates":  [
+                                               "Crystal"
+                                           ],
+                      "owner_assignment_basis":  "用户新规则：明确负责人或任务上下文相关参与者；身份映射核实不等于唯一责任已确认。"
+                  },
+                  {
+                      "id":  "C6-06",
+                      "source_file":  "Crystal的Zoom會議6.txt",
+                      "project":  "家居產品銷售",
+                      "task":  "安排与 Fred 的产品销售专题讨论，明确盛緻苑后续产品推广方向",
+                      "owner_candidate":  null,
+                      "decision_status":  "action",
+                      "priority_suggestion":  "normal",
+                      "deadline":  null,
+                      "deadline_raw":  null,
+                      "evidence":  [
+                                       {
+                                           "line":  850,
+                                           "quote":  "我會跟fred開個專題討論產品的銷售",
+                                           "verbatim_source_line":  "Crystal: 我們要想一想，fred，我會跟fred開個專題討論產品的銷售。我想知道片裝修。",
+                                           "source_time":  "01:10:02.000 --\u003e 01:10:19.000"
+                                       }
+                                   ],
+                      "notes":  "邀请人虽标为Crystal，但同一标签混用，不能据此直接匹配人员。Fred是参会者，不自动当作唯一owner。",
+                      "import_status":  "created_with_project_and_owners_readback_verified",
+                      "owner_candidates":  [
+                                               "Crystal"
+                                           ],
+                      "unresolved_related_people":  [
+                                                        "Fred"
+                                                    ],
+                      "owner_context_evidence":  [
+                                                     {
+                                                         "line":  850,
+                                                         "quote":  "Crystal: 我們要想一想，fred，我會跟fred開個專題討論產品的銷售。我想知道片裝修。",
+                                                         "verbatim_source_line":  "Crystal: 我們要想一想，fred，我會跟fred開個專題討論產品的銷售。我想知道片裝修。",
+                                                         "source_time":  "01:10:02.000 --\u003e 01:10:19.000"
+                                                     }
+                                                 ],
+                      "owner_assignment_basis":  "用户新规则：明确负责人或任务上下文相关参与者；身份映射核实不等于唯一责任已确认。",
+                      "record_id":  "reczz28dljgaPhwW",
+                      "revision_status":  "project_owner_readback_verified"
+                  },
+                  {
+                      "id":  "C6-07",
+                      "source_file":  "Crystal的Zoom會議6.txt",
+                      "project":  "安心裝修計劃",
+                      "task":  "继续一周盛緻苑装修推广，并在下周复盘装修咨询与成单效果",
+                      "owner_candidate":  "Trinity",
+                      "decision_status":  "action",
+                      "priority_suggestion":  "high",
+                      "deadline":  null,
+                      "deadline_raw":  "下个星期review",
+                      "evidence":  [
+                                       {
+                                           "line":  1048,
+                                           "quote":  "星期一開始宣傳…今天才星期三",
+                                           "verbatim_source_line":  "Trinity: 因為我們的裝修計劃是星期一開始宣傳，今天才星期三。而我們昨天是因為羣組的事情斷了宣傳，在他宣傳了兩天，而昨天youtube纔出了一條影片的情況下，都可以有這樣的數據，我覺得我們不應該這麼快放棄。",
+                                           "source_time":  "01:21:04.000 --\u003e 01:21:22.000"
+                                       },
+                                       {
+                                           "line":  1054,
+                                           "quote":  "下個禮拜，我哋再睇多次",
+                                           "verbatim_source_line":  "Crystal: 呢一個禮拜我哋延長埋呢一個禮拜，即係下個禮拜，我哋再睇多次睇睇下啲total就用咗兩個星期，咁樣樣就就睇睇嗰個裝修嗰部分有冇嘢可以返到嚟好遠？如果要咁樣安排。",
+                                           "source_time":  "01:21:25.000 --\u003e 01:21:41.000"
+                                       },
+                                       {
+                                           "line":  1243,
+                                           "quote":  "可以我哋試埋今個星期啦",
+                                           "verbatim_source_line":  "Trinity: 可以我哋試埋今個星期啦，跟住我哋可以接去做其他屋苑。",
+                                           "source_time":  "01:31:38.000 --\u003e 01:31:44.000"
+                                       }
+                                   ],
+                      "notes":  "Trinity明确接受继续试行；是否为团队唯一owner仍需实际人员映射。",
+                      "import_status":  "updated_project_owner_readback_verified",
+                      "record_id":  "reczz28dlJzT7U9O",
+                      "owner_candidates":  [
+                                               "Trinity"
+                                           ],
+                      "owner_assignment_basis":  "用户新规则：明确负责人或任务上下文相关参与者；身份映射核实不等于唯一责任已确认。",
+                      "revision_status":  "project_owner_readback_verified"
+                  },
+                  {
+                      "id":  "C6-08",
+                      "source_file":  "Crystal的Zoom會議6.txt",
+                      "project":  "安心裝修計劃",
+                      "owner_candidate":  "Trinity",
+                      "decision_status":  "action",
+                      "priority_suggestion":  "high",
+                      "deadline":  null,
+                      "deadline_raw":  "今个星期",
+                      "evidence":  [
+                                       {
+                                           "line":  1138,
+                                           "quote":  "所有裝修片…重新製作…承摯同重售，一齊去做。一條片for兩個",
+                                           "verbatim_source_line":  "Trinity: 咁。但係由於我哋上次youtube有俾人封嘅風險吖嘛，所以我哋今次所有裝修片係都要重新製作嘅，但係考慮到我哋嘅人手同埋時間成本，我諗我哋真係要承摯同重售，一齊去做。一條片for兩個唔同。",
+                                           "source_time":  "01:24:36.000 --\u003e 01:24:54.000"
+                                       },
+                                       {
+                                           "line":  1156,
+                                           "quote":  "cover就會寫…居屋二零二五重售單位",
+                                           "verbatim_source_line":  "Crystal: 呢班人啦咁。咁所以可能入面我哋就未必講屋苑個名囉。係個餡但係個cover就會寫聖志同居屋二零二五重售單位咁樣咁。咁所以其實好明顯睇到每一個平臺佢。",
+                                           "source_time":  "01:25:36.000 --\u003e 01:25:51.000"
+                                       },
+                                       {
+                                           "line":  1138,
+                                           "quote":  "Trinity: 咁。但係由於我哋上次youtube有俾人封嘅風險吖嘛，所以我哋今次所有裝修片係都要重新製作嘅，但係考慮到我哋嘅人手同埋時間成本，我諗我哋真係要承摯同重售，一齊去做。一條片for兩個唔同。",
+                                           "verbatim_source_line":  "Trinity: 咁。但係由於我哋上次youtube有俾人封嘅風險吖嘛，所以我哋今次所有裝修片係都要重新製作嘅，但係考慮到我哋嘅人手同埋時間成本，我諗我哋真係要承摯同重售，一齊去做。一條片for兩個唔同。",
+                                           "source_time":  "01:24:36.000 --\u003e 01:24:54.000"
+                                       },
+                                       {
+                                           "line":  1207,
+                                           "quote":  "Trinity: 請講電話。係我同john兩個人做。",
+                                           "verbatim_source_line":  "Trinity: 請講電話。係我同john兩個人做。",
+                                           "source_time":  "01:29:42.000 --\u003e 01:29:47.000"
+                                       }
+                                   ],
+                      "task":  "重制同时面向盛緻苑与居屋2025重售单位的装修影片，并安排适用渠道分发",
+                      "notes":  "Trinity 明确表示与 John 共同制作。只分配已核实的 Trinity，不猜测 John 的人员标识。",
+                      "import_status":  "updated_project_owner_readback_verified",
+                      "record_id":  "reczz28dlJzT3SA2",
+                      "owner_candidates":  [
+                                               "Trinity"
+                                           ],
+                      "unresolved_related_people":  [
+                                                        "John"
+                                                    ],
+                      "owner_assignment_basis":  "用户新规则：明确负责人或任务上下文相关参与者；身份映射核实不等于唯一责任已确认。",
+                      "revision_status":  "project_owner_readback_verified"
+                  },
+                  {
+                      "id":  "C6-09",
+                      "source_file":  "Crystal的Zoom會議6.txt",
+                      "project":  "安心裝修計劃",
+                      "task":  "修改下一版海报中容易引起误解的陪伴或监管服务文案",
+                      "owner_candidate":  null,
+                      "decision_status":  "action",
+                      "priority_suggestion":  "high",
+                      "deadline":  null,
+                      "deadline_raw":  "下一次poster发布前",
+                      "evidence":  [
+                                       {
+                                           "line":  1435,
+                                           "quote":  "下次不如改回粒字啦",
+                                           "verbatim_source_line":  "Crystal: 我哋下次不如改回粒字啦，唔好咁寫啦好唔好。",
+                                           "source_time":  "01:42:19.000 --\u003e 01:42:27.000"
+                                       },
+                                       {
+                                           "line":  1441,
+                                           "quote":  "下次poster就不好咁寫",
+                                           "verbatim_source_line":  "Crystal: 如果大家覺得這個有歧義，下次poster就不好咁寫。",
+                                           "source_time":  "01:42:36.000 --\u003e 01:42:41.000"
+                                       },
+                                       {
+                                           "line":  1444,
+                                           "quote":  "真的要改…下次要改掉",
+                                           "verbatim_source_line":  "Crystal: 真的要改，我昨天都有誤會場地看着他們，我完全很安心地把整個行程交給叻媽媽會這樣的感覺，所以我們下次要改掉。",
+                                           "source_time":  "01:42:41.000 --\u003e 01:43:02.000"
+                                       }
+                                   ],
+                      "import_status":  "created_with_project_and_owners_readback_verified",
+                      "owner_candidates":  [
+                                               "Crystal"
+                                           ],
+                      "owner_context_evidence":  [
+                                                     {
+                                                         "line":  1435,
+                                                         "quote":  "Crystal: 我哋下次不如改回粒字啦，唔好咁寫啦好唔好。",
+                                                         "verbatim_source_line":  "Crystal: 我哋下次不如改回粒字啦，唔好咁寫啦好唔好。",
+                                                         "source_time":  "01:42:19.000 --\u003e 01:42:27.000"
+                                                     },
+                                                     {
+                                                         "line":  1441,
+                                                         "quote":  "Crystal: 如果大家覺得這個有歧義，下次poster就不好咁寫。",
+                                                         "verbatim_source_line":  "Crystal: 如果大家覺得這個有歧義，下次poster就不好咁寫。",
+                                                         "source_time":  "01:42:36.000 --\u003e 01:42:41.000"
+                                                     },
+                                                     {
+                                                         "line":  1444,
+                                                         "quote":  "Crystal: 真的要改，我昨天都有誤會場地看着他們，我完全很安心地把整個行程交給叻媽媽會這樣的感覺，所以我們下次要改掉。",
+                                                         "verbatim_source_line":  "Crystal: 真的要改，我昨天都有誤會場地看着他們，我完全很安心地把整個行程交給叻媽媽會這樣的感覺，所以我們下次要改掉。",
+                                                         "source_time":  "01:42:41.000 --\u003e 01:43:02.000"
+                                                     }
+                                                 ],
+                      "owner_assignment_basis":  "用户新规则：明确负责人或任务上下文相关参与者；身份映射核实不等于唯一责任已确认。",
+                      "record_id":  "reczz28dljgaQ6W7",
+                      "revision_status":  "project_owner_readback_verified"
+                  },
+                  {
+                      "id":  "C6-10",
+                      "source_file":  "Crystal的Zoom會議6.txt",
+                      "project":  "裝修紀錄",
+                      "task":  "设计装修过程拍摄的工作流程，确认工程节点、拍摄人及业主授权方式",
+                      "owner_candidate":  null,
+                      "decision_status":  "action",
+                      "priority_suggestion":  "normal",
+                      "deadline":  null,
+                      "deadline_raw":  null,
+                      "evidence":  [
+                                       {
+                                           "line":  1456,
+                                           "quote":  "同業主講我去拍片再問佢俾唔俾我放出來",
+                                           "verbatim_source_line":  "Crystal: 我哋個得到計劃。第二，我會同業主講我去拍片再問佢俾唔俾我放出來啦，咁樣。",
+                                           "source_time":  "01:43:52.000 --\u003e 01:44:07.000"
+                                       },
+                                       {
+                                           "line":  1519,
+                                           "quote":  "要諗成個working flow…邊個去做",
+                                           "verbatim_source_line":  "Crystal: 就係咯，要做裝修嘅業務就一定要拍裝修片，呢個係必然嘅。係啦，咁但係就要諗成個working flow，譬如我點樣做邊個去做。",
+                                           "source_time":  "01:46:39.000 --\u003e 01:46:52.000"
+                                       },
+                                       {
+                                           "line":  1534,
+                                           "quote":  "通知我哋去拍攝",
+                                           "verbatim_source_line":  "Crystal: 額未整好完，你快啲嚟驗。收啦催你快啲驗收啦。咁樣。咁如果簡單啲嚟，每次cindy同gigi俾第一期錢之後或者俾下一期錢，之後會通知我哋去拍攝囉，即係我唔知你哋會唔會係跟期數影？定還是任何時候去都得？就算個師傅係度做緊工呢？你影下師傅嗰度都好嘅，好多嘢睇嘅。",
+                                           "source_time":  "01:47:15.000 --\u003e 01:47:43.000"
+                                       }
+                                   ],
+                      "notes":  "John只是被提及的可能拍摄者，尚未明确接受任务。",
+                      "import_status":  "created_with_project_and_owners_readback_verified",
+                      "owner_candidates":  [
+                                               "Crystal",
+                                               "Trinity"
+                                           ],
+                      "unresolved_related_people":  [
+                                                        "John",
+                                                        "Cindy",
+                                                        "Gigi"
+                                                    ],
+                      "owner_context_evidence":  [
+                                                     {
+                                                         "line":  1456,
+                                                         "quote":  "Crystal: 我哋個得到計劃。第二，我會同業主講我去拍片再問佢俾唔俾我放出來啦，咁樣。",
+                                                         "verbatim_source_line":  "Crystal: 我哋個得到計劃。第二，我會同業主講我去拍片再問佢俾唔俾我放出來啦，咁樣。",
+                                                         "source_time":  "01:43:52.000 --\u003e 01:44:07.000"
+                                                     },
+                                                     {
+                                                         "line":  1501,
+                                                         "quote":  "Trinity: 三個五點。",
+                                                         "verbatim_source_line":  "Trinity: 三個五點。",
+                                                         "source_time":  "01:46:02.000 --\u003e 01:46:04.000"
+                                                     },
+                                                     {
+                                                         "line":  1516,
+                                                         "quote":  "Trinity: Mhm.",
+                                                         "verbatim_source_line":  "Trinity: Mhm.",
+                                                         "source_time":  "01:46:39.000 --\u003e 01:46:41.000"
+                                                     },
+                                                     {
+                                                         "line":  1519,
+                                                         "quote":  "Crystal: 就係咯，要做裝修嘅業務就一定要拍裝修片，呢個係必然嘅。係啦，咁但係就要諗成個working flow，譬如我點樣做邊個去做。",
+                                                         "verbatim_source_line":  "Crystal: 就係咯，要做裝修嘅業務就一定要拍裝修片，呢個係必然嘅。係啦，咁但係就要諗成個working flow，譬如我點樣做邊個去做。",
+                                                         "source_time":  "01:46:39.000 --\u003e 01:46:52.000"
+                                                     },
+                                                     {
+                                                         "line":  1534,
+                                                         "quote":  "Crystal: 額未整好完，你快啲嚟驗。收啦催你快啲驗收啦。咁樣。咁如果簡單啲嚟，每次cindy同gigi俾第一期錢之後或者俾下一期錢，之後會通知我哋去拍攝囉，即係我唔知你哋會唔會係跟期數影？定還是任何時候去都得？就算個師傅係度做緊工呢？你影下師傅嗰度都好嘅，好多嘢睇嘅。",
+                                                         "verbatim_source_line":  "Crystal: 額未整好完，你快啲嚟驗。收啦催你快啲驗收啦。咁樣。咁如果簡單啲嚟，每次cindy同gigi俾第一期錢之後或者俾下一期錢，之後會通知我哋去拍攝囉，即係我唔知你哋會唔會係跟期數影？定還是任何時候去都得？就算個師傅係度做緊工呢？你影下師傅嗰度都好嘅，好多嘢睇嘅。",
+                                                         "source_time":  "01:47:15.000 --\u003e 01:47:43.000"
+                                                     }
+                                                 ],
+                      "owner_assignment_basis":  "用户新规则：明确负责人或任务上下文相关参与者；身份映射核实不等于唯一责任已确认。",
+                      "record_id":  "reczz28dljgaR1V8",
+                      "revision_status":  "project_owner_readback_verified"
+                  },
+                  {
+                      "id":  "C6-11",
+                      "source_file":  "Crystal的Zoom會議6.txt",
+                      "project":  "YouTube Live與Zoom",
+                      "task":  "落实次日晚 YouTube Live 的内容、咨询承接及后续 Zoom 分流安排",
+                      "owner_candidate":  null,
+                      "decision_status":  "action",
+                      "priority_suggestion":  "high",
+                      "deadline":  null,
+                      "deadline_raw":  "今天讨论；明晚直播前",
+                      "evidence":  [
+                                       {
+                                           "line":  1561,
+                                           "quote":  "比較急嘅，可以今日再有少少時間講一下…聽晚嗰個youtube live",
+                                           "verbatim_source_line":  "Trinity: 我想還有一樣嘢係現在比較急嘅，可以今日再有少少時間講一下，就係我哋聽晚嗰個youtube live。",
+                                           "source_time":  "01:48:23.000 --\u003e 01:48:32.000"
+                                       },
+                                       {
+                                           "line":  1570,
+                                           "quote":  "令到明晚的youtube life更加順暢",
+                                           "verbatim_source_line":  "Trinity: 因為之前youtube live cs二都要承接很大的諮詢量，我們可以一起想怎樣令到明晚的youtube life更加順暢，這個都需要我，們，大家給點意見。",
+                                           "source_time":  "01:48:32.000 --\u003e 01:48:46.000"
+                                       },
+                                       {
+                                           "line":  1660,
+                                           "quote":  "改到星期日啦。開過條link即係poster改一下",
+                                           "verbatim_source_line":  "Crystal: 我哋改到星期日啦。開過條link即係poster改一下。嗯。",
+                                           "source_time":  "01:52:46.000 --\u003e 01:52:56.000"
+                                       }
+                                   ],
+                      "notes":  "星期日指后续Zoom改期；不能把明晚YouTube直播也改成星期日。",
+                      "import_status":  "created_with_project_and_owners_readback_verified",
+                      "owner_candidates":  [
+                                               "Trinity",
+                                               "Crystal",
+                                               "Penny"
+                                           ],
+                      "owner_context_evidence":  [
+                                                     {
+                                                         "line":  1561,
+                                                         "quote":  "Trinity: 我想還有一樣嘢係現在比較急嘅，可以今日再有少少時間講一下，就係我哋聽晚嗰個youtube live。",
+                                                         "verbatim_source_line":  "Trinity: 我想還有一樣嘢係現在比較急嘅，可以今日再有少少時間講一下，就係我哋聽晚嗰個youtube live。",
+                                                         "source_time":  "01:48:23.000 --\u003e 01:48:32.000"
+                                                     },
+                                                     {
+                                                         "line":  1570,
+                                                         "quote":  "Trinity: 因為之前youtube live cs二都要承接很大的諮詢量，我們可以一起想怎樣令到明晚的youtube life更加順暢，這個都需要我，們，大家給點意見。",
+                                                         "verbatim_source_line":  "Trinity: 因為之前youtube live cs二都要承接很大的諮詢量，我們可以一起想怎樣令到明晚的youtube life更加順暢，這個都需要我，們，大家給點意見。",
+                                                         "source_time":  "01:48:32.000 --\u003e 01:48:46.000"
+                                                     },
+                                                     {
+                                                         "line":  1669,
+                                                         "quote":  "Trinity: 改期，仲要我哋target係全部我哋今日新增嘅業主。",
+                                                         "verbatim_source_line":  "Trinity: 改期，仲要我哋target係全部我哋今日新增嘅業主。",
+                                                         "source_time":  "01:52:56.000 --\u003e 01:53:02.000"
+                                                     },
+                                                     {
+                                                         "line":  1678,
+                                                         "quote":  "Crystal: 我已經叫咗㗎啦，但係就睇嚇penny哥有冇收到呢個㩒水。",
+                                                         "verbatim_source_line":  "Crystal: 我已經叫咗㗎啦，但係就睇嚇penny哥有冇收到呢個㩒水。",
+                                                         "source_time":  "01:53:03.000 --\u003e 01:53:24.000"
+                                                     }
+                                                 ],
+                      "owner_assignment_basis":  "用户新规则：明确负责人或任务上下文相关参与者；身份映射核实不等于唯一责任已确认。",
+                      "record_id":  "reczz28dljgaOkgG",
+                      "revision_status":  "project_owner_readback_verified"
+                  },
+                  {
+                      "id":  "C6-12",
+                      "source_file":  "Crystal的Zoom會議6.txt",
+                      "project":  "YouTube Live與Zoom",
+                      "task":  "将后续 Zoom 改至星期日，并同步更新报名链接及海报",
+                      "decision_status":  "action",
+                      "priority_suggestion":  "high",
+                      "deadline":  null,
+                      "deadline_raw":  "重新宣传前；星期日为活动日",
+                      "evidence":  [
+                                       {
+                                           "line":  1660,
+                                           "quote":  "改到星期日啦。開過條link即係poster改一下",
+                                           "verbatim_source_line":  "Crystal: 我哋改到星期日啦。開過條link即係poster改一下。嗯。",
+                                           "source_time":  "01:52:46.000 --\u003e 01:52:56.000"
+                                       },
+                                       {
+                                           "line":  1669,
+                                           "quote":  "改期…target係全部我哋今日新增嘅業主",
+                                           "verbatim_source_line":  "Trinity: 改期，仲要我哋target係全部我哋今日新增嘅業主。",
+                                           "source_time":  "01:52:56.000 --\u003e 01:53:02.000"
+                                       },
+                                       {
+                                           "line":  1723,
+                                           "quote":  "Trinity: 我今日改完之後send出去羣度啊。",
+                                           "verbatim_source_line":  "Trinity: 我今日改完之後send出去羣度啊。",
+                                           "source_time":  "01:55:32.000 --\u003e 01:55:36.000"
+                                       }
+                                   ],
+                      "owner_candidate":  "Trinity",
+                      "import_status":  "updated_project_owner_readback_verified",
+                      "record_id":  "reczz28dlJzT6R0Q",
+                      "owner_candidates":  [
+                                               "Trinity"
+                                           ],
+                      "owner_assignment_basis":  "用户新规则：明确负责人或任务上下文相关参与者；身份映射核实不等于唯一责任已确认。",
+                      "revision_status":  "project_owner_readback_verified"
+                  },
+                  {
+                      "id":  "C6-13",
+                      "source_file":  "Crystal的Zoom會議6.txt",
+                      "project":  "家居產品銷售",
+                      "task":  "另开专题会策划家居展相关直播的内容、活动、收款及出货流程",
+                      "owner_candidate":  null,
+                      "decision_status":  "action",
+                      "priority_suggestion":  "normal",
+                      "deadline":  null,
+                      "deadline_raw":  "家居展前；具体日期未明",
+                      "evidence":  [
+                                       {
+                                           "line":  2251,
+                                           "quote":  "收錢同埋出貨整個flow要諗嘅細節…campaign要策劃",
+                                           "verbatim_source_line":  "Crystal: 好有機會收錢同埋出貨整個flow要諗嘅細節，同埋整個campaign要策劃嘅講咩內容啊有咩活動啊呢啲都要諗。",
+                                           "source_time":  "02:21:56.000 --\u003e 02:22:10.000"
+                                       },
+                                       {
+                                           "line":  2317,
+                                           "quote":  "再去夾嘅直播嗰個細節",
+                                           "verbatim_source_line":  "Crystal: 誒。睇嚇先，我仲有冇啲咩重要嘅嘢要同大家講埋先。係呀，咁呢個我覺得都可以，我哋再去夾嘅直播嗰個細節。",
+                                           "source_time":  "02:24:40.000 --\u003e 02:24:50.000"
+                                       }
+                                   ],
+                      "notes":  "不将未落实的赞助、线下派发方案直接当成已批准执行任务。",
+                      "import_status":  "created_with_project_and_owners_readback_verified",
+                      "owner_candidates":  [
+                                               "Crystal",
+                                               "Trinity"
+                                           ],
+                      "owner_context_evidence":  [
+                                                     {
+                                                         "line":  2059,
+                                                         "quote":  "Crystal: 上次跟大家聊過不要做。之後我同crystal傾crystal有些新的想法，你會唔會拿出來了？",
+                                                         "verbatim_source_line":  "Crystal: 上次跟大家聊過不要做。之後我同crystal傾crystal有些新的想法，你會唔會拿出來了？",
+                                                         "source_time":  "02:10:36.000 --\u003e 02:10:52.000"
+                                                     },
+                                                     {
+                                                         "line":  2272,
+                                                         "quote":  "Trinity: 因為啱啱有提到話其實呢個形式主要都係以帶貨為主，我諗其實佢想表達嘅係，我哋除咗係直播賣貨之外，我哋要諗其實呢樣嘢點樣去build up我哋嘅品牌囉。究竟我哋帶出嚟嘅。",
+                                                         "verbatim_source_line":  "Trinity: 因為啱啱有提到話其實呢個形式主要都係以帶貨為主，我諗其實佢想表達嘅係，我哋除咗係直播賣貨之外，我哋要諗其實呢樣嘢點樣去build up我哋嘅品牌囉。究竟我哋帶出嚟嘅。",
+                                                         "source_time":  "02:22:37.000 --\u003e 02:22:53.000"
+                                                     },
+                                                     {
+                                                         "line":  2281,
+                                                         "quote":  "Trinity: 意識是我們可以和供應商合作，我們很有權力，還是我們帶出來的意識是會有很便宜，很低成本的貨，究竟是哪個方向對我們自己的品牌是最有效的，我們在宣傳和策劃的時候，就要按著這個方向去。",
+                                                         "verbatim_source_line":  "Trinity: 意識是我們可以和供應商合作，我們很有權力，還是我們帶出來的意識是會有很便宜，很低成本的貨，究竟是哪個方向對我們自己的品牌是最有效的，我們在宣傳和策劃的時候，就要按著這個方向去。",
+                                                         "source_time":  "02:22:53.000 --\u003e 02:23:08.000"
+                                                     }
+                                                 ],
+                      "owner_assignment_basis":  "用户新规则：明确负责人或任务上下文相关参与者；身份映射核实不等于唯一责任已确认。",
+                      "record_id":  "reczz28dljgaRwfW",
+                      "revision_status":  "project_owner_readback_verified"
+                  },
+                  {
+                      "id":  "C6-14",
+                      "source_file":  "Crystal的Zoom會議6.txt",
+                      "project":  "WhatsApp自動化",
+                      "task":  "核对旧 YouTube 影片的联系入口与预填来源文字，补齐缺失的追踪信息",
+                      "owner_candidate":  null,
+                      "decision_status":  "action",
+                      "priority_suggestion":  "normal",
+                      "deadline":  null,
+                      "deadline_raw":  null,
+                      "evidence":  [
+                                       {
+                                           "line":  2395,
+                                           "quote":  "有啲youtube片可能仲未…有嗰段字…你再對一下",
+                                           "verbatim_source_line":  "Crystal: 即係依家即係有啲呢？有啲人係直接say hi入嚟嘅，我check到一下係有啲youtube片可能仲未仲未有嗰段字可能係qr code嗰邊。你再對一下因爲有啲人可能就係youtube過嚟佢就直接乜嘢都有講，可能啲舊片睇咗啲舊片。",
+                                           "source_time":  "02:29:32.000 --\u003e 02:29:52.000"
+                                       },
+                                       {
+                                           "line":  2425,
+                                           "quote":  "居屋二零二五嗰啲片…仲係舊",
+                                           "verbatim_source_line":  "Trinity: 係因為我哋派得最多，而家仲係居屋二零二五嗰啲片，所以嗰啲片就會有好多人入嚟囉，但係嗰啲片仲係舊嘅曲囉。",
+                                           "source_time":  "02:30:24.000 --\u003e 02:30:35.000"
+                                       }
+                                   ],
+                      "import_status":  "created_with_project_and_owners_readback_verified",
+                      "owner_candidates":  [
+                                               "Crystal",
+                                               "Trinity"
+                                           ],
+                      "owner_context_evidence":  [
+                                                     {
+                                                         "line":  2395,
+                                                         "quote":  "Crystal: 即係依家即係有啲呢？有啲人係直接say hi入嚟嘅，我check到一下係有啲youtube片可能仲未仲未有嗰段字可能係qr code嗰邊。你再對一下因爲有啲人可能就係youtube過嚟佢就直接乜嘢都有講，可能啲舊片睇咗啲舊片。",
+                                                         "verbatim_source_line":  "Crystal: 即係依家即係有啲呢？有啲人係直接say hi入嚟嘅，我check到一下係有啲youtube片可能仲未仲未有嗰段字可能係qr code嗰邊。你再對一下因爲有啲人可能就係youtube過嚟佢就直接乜嘢都有講，可能啲舊片睇咗啲舊片。",
+                                                         "source_time":  "02:29:32.000 --\u003e 02:29:52.000"
+                                                     },
+                                                     {
+                                                         "line":  2425,
+                                                         "quote":  "Trinity: 係因為我哋派得最多，而家仲係居屋二零二五嗰啲片，所以嗰啲片就會有好多人入嚟囉，但係嗰啲片仲係舊嘅曲囉。",
+                                                         "verbatim_source_line":  "Trinity: 係因為我哋派得最多，而家仲係居屋二零二五嗰啲片，所以嗰啲片就會有好多人入嚟囉，但係嗰啲片仲係舊嘅曲囉。",
+                                                         "source_time":  "02:30:24.000 --\u003e 02:30:35.000"
+                                                     }
+                                                 ],
+                      "owner_assignment_basis":  "用户新规则：明确负责人或任务上下文相关参与者；身份映射核实不等于唯一责任已确认。",
+                      "record_id":  "reczz28dljgaOaAD",
+                      "revision_status":  "project_owner_readback_verified"
+                  },
+                  {
+                      "id":  "C6-15",
+                      "source_file":  "Crystal的Zoom會議6.txt",
+                      "project":  "安心裝修計劃",
+                      "task":  "向已标记的10位尚未找到装修公司的业主逐一发送装修计划资料",
+                      "owner_candidate":  "sitter",
+                      "decision_status":  "action",
+                      "priority_suggestion":  "high",
+                      "deadline":  null,
+                      "deadline_raw":  "今天",
+                      "evidence":  [
+                                       {
+                                           "line":  2647,
+                                           "quote":  "十個人。我label左，可能今天sitter找個時間一對一send回我們計劃message給他",
+                                           "verbatim_source_line":  "Trinity: 我想補充一點，關於sick vote和podcast，我們上次最後一次podcast盛志願之後有十個業主係回覆我們未找裝修公司，或者係佢搵嘅時候上來問net媽的十個人。我label左，可能今天sitter找個時間一對一send回我們計劃message給他。",
+                                           "source_time":  "02:44:31.000 --\u003e 02:44:51.000"
+                                       }
+                                   ],
+                      "notes":  "sitter为转写名称，需核实真实人员；本次不发送客户消息。",
+                      "import_status":  "created_with_project_and_owners_readback_verified",
+                      "owner_candidates":  [
+                                               "sitter",
+                                               "Trinity",
+                                               "Crystal"
+                                           ],
+                      "owner_context_evidence":  [
+                                                     {
+                                                         "line":  2647,
+                                                         "quote":  "Trinity: 我想補充一點，關於sick vote和podcast，我們上次最後一次podcast盛志願之後有十個業主係回覆我們未找裝修公司，或者係佢搵嘅時候上來問net媽的十個人。我label左，可能今天sitter找個時間一對一send回我們計劃message給他。",
+                                                         "verbatim_source_line":  "Trinity: 我想補充一點，關於sick vote和podcast，我們上次最後一次podcast盛志願之後有十個業主係回覆我們未找裝修公司，或者係佢搵嘅時候上來問net媽的十個人。我label左，可能今天sitter找個時間一對一send回我們計劃message給他。",
+                                                         "source_time":  "02:44:31.000 --\u003e 02:44:51.000"
+                                                     },
+                                                     {
+                                                         "line":  2653,
+                                                         "quote":  "Crystal: 可以，但係邊個label？因為我見依家開咗好多成自院嗰個咩裝修嘅label我有啲搞唔明呀。",
+                                                         "verbatim_source_line":  "Crystal: 可以，但係邊個label？因為我見依家開咗好多成自院嗰個咩裝修嘅label我有啲搞唔明呀。",
+                                                         "source_time":  "02:44:50.000 --\u003e 02:45:01.000"
+                                                     },
+                                                     {
+                                                         "line":  2683,
+                                                         "quote":  "Crystal: 可能執一下好多個代裝修啊。應該是要回覆十個未搵嘅計劃的。",
+                                                         "verbatim_source_line":  "Crystal: 可能執一下好多個代裝修啊。應該是要回覆十個未搵嘅計劃的。",
+                                                         "source_time":  "02:45:42.000 --\u003e 02:46:05.000"
+                                                     }
+                                                 ],
+                      "owner_assignment_basis":  "用户新规则：明确负责人或任务上下文相关参与者；身份映射核实不等于唯一责任已确认。",
+                      "record_id":  "reczz28dljgaOkv8",
+                      "revision_status":  "project_owner_readback_verified"
+                  },
+                  {
+                      "id":  "C6-16",
+                      "source_file":  "Crystal的Zoom會議6.txt",
+                      "project":  "安心裝修計劃",
+                      "task":  "统一盛緻苑装修相关标签的含义，并在新建标签时补充说明",
+                      "owner_candidate":  null,
+                      "priority_suggestion":  "normal",
+                      "deadline":  null,
+                      "deadline_raw":  null,
+                      "evidence":  [
+                                       {
+                                           "line":  2653,
+                                           "quote":  "好多…裝修嘅label我有啲搞唔明",
+                                           "verbatim_source_line":  "Crystal: 可以，但係邊個label？因為我見依家開咗好多成自院嗰個咩裝修嘅label我有啲搞唔明呀。",
+                                           "source_time":  "02:44:50.000 --\u003e 02:45:01.000"
+                                       },
+                                       {
+                                           "line":  2668,
+                                           "quote":  "如果我哋之後開，每個人都更新一下",
+                                           "verbatim_source_line":  "Trinity: 係呀，我有喺電腦度更新嘅解釋囉，如果我哋之後開，每個人都更新一下。",
+                                           "source_time":  "02:45:19.000 --\u003e 02:45:27.000"
+                                       }
+                                   ],
+                      "decision_status":  "ongoing_rule",
+                      "notes":  "既有说明已经更新；每位新建标签者补充说明属于持续规则，未确认唯一负责人，不重复创建一次性待办。",
+                      "import_status":  "excluded_not_written"
+                  },
+                  {
+                      "id":  "C6-17",
+                      "source_file":  "Crystal的Zoom會議6.txt",
+                      "project":  "會議任務中控台",
+                      "task":  "整合 Zoom 会后任务清单与 Fred 的团队任务平台",
+                      "owner_candidate":  null,
+                      "decision_status":  "action",
+                      "priority_suggestion":  "normal",
+                      "deadline":  null,
+                      "deadline_raw":  null,
+                      "evidence":  [
+                                       {
+                                           "line":  2719,
+                                           "quote":  "寶兒會幫手喺個zoom嗰度執返個script，或者係打任務清單",
+                                           "verbatim_source_line":  "Crystal: 咁誒。因為我哋每次開完meeting都會有啲唔同嘅task或者任務，咁寶兒會幫手喺個zoom嗰度執返個script，或者係打任務清單出嚟，咁跟住呢？誒？阿fred整咗一個有一個。",
+                                           "source_time":  "02:47:40.000 --\u003e 02:47:55.000"
+                                       },
+                                       {
+                                           "line":  2722,
+                                           "quote":  "想睇嚇呢兩舊嘢點樣可以融合到",
+                                           "verbatim_source_line":  "Crystal: Platform。大家可能可以睇到嗰啲task嘅，咁，咁就想睇嚇呢兩舊嘢點樣可以融合到？跟住大家可能容易啲去follow自己嘅一啲action item。",
+                                           "source_time":  "02:47:55.000 --\u003e 02:48:08.000"
+                                       }
+                                   ],
+                      "notes":  "与C2-05及用户本次请求可能相同，需跨会议语义合并，不能重复新增。",
+                      "import_status":  "pending_not_written",
+                      "owner_candidates":  [
+                                               "Crystal"
+                                           ],
+                      "unresolved_related_people":  [
+                                                        "Fred",
+                                                        "宝儿"
+                                                    ],
+                      "owner_assignment_basis":  "用户新规则：明确负责人或任务上下文相关参与者；身份映射核实不等于唯一责任已确认。"
+                  },
+                  {
+                      "id":  "SZY-08",
+                      "source_file":  "盛緻苑實體班.txt",
+                      "project":  "盛緻苑實體班",
+                      "task":  "调整实体班产品展示与装修咨询区布局，减少大平面图占用并理顺动线",
+                      "owner_candidate":  null,
+                      "decision_status":  "action",
+                      "priority_suggestion":  "normal",
+                      "deadline":  null,
+                      "deadline_raw":  null,
+                      "evidence":  [
+                                       {
+                                           "line":  1024,
+                                           "quote":  "JIAYU LIU: 所以我觉得有两个解决方案，一个，要么就是在我们讲课的那个课堂摆那个装修询问的桌子，然后另外一边可能主要就是产品。",
+                                           "verbatim_source_line":  "JIAYU LIU: 所以我觉得有两个解决方案，一个，要么就是在我们讲课的那个课堂摆那个装修询问的桌子，然后另外一边可能主要就是产品。",
+                                           "source_time":  "00:47:09.000 --\u003e 00:47:18.000"
+                                       },
+                                       {
+                                           "line":  1036,
+                                           "quote":  "Trinity: 我们可以只摆厕所，不摆厨房。",
+                                           "verbatim_source_line":  "Trinity: 我们可以只摆厕所，不摆厨房。",
+                                           "source_time":  "00:47:22.000 --\u003e 00:47:25.000"
+                                       },
+                                       {
+                                           "line":  1084,
+                                           "quote":  "Trinity: 那我们就这样调整吧。",
+                                           "verbatim_source_line":  "Trinity: 那我们就这样调整吧。",
+                                           "source_time":  "00:48:18.000 --\u003e 00:48:20.000"
+                                       },
+                                       {
+                                           "line":  1090,
+                                           "quote":  "JIAYU LIU: 那我们调整一下吧。",
+                                           "verbatim_source_line":  "JIAYU LIU: 那我们调整一下吧。",
+                                           "source_time":  "00:48:20.000 --\u003e 00:48:23.000"
+                                       }
+                                   ],
+                      "import_status":  "created_with_project_and_owners_readback_verified",
+                      "owner_candidates":  [
+                                               "Jiayu Liu",
+                                               "Trinity"
+                                           ],
+                      "owner_context_evidence":  [
+                                                     {
+                                                         "line":  1024,
+                                                         "quote":  "JIAYU LIU: 所以我觉得有两个解决方案，一个，要么就是在我们讲课的那个课堂摆那个装修询问的桌子，然后另外一边可能主要就是产品。",
+                                                         "verbatim_source_line":  "JIAYU LIU: 所以我觉得有两个解决方案，一个，要么就是在我们讲课的那个课堂摆那个装修询问的桌子，然后另外一边可能主要就是产品。",
+                                                         "source_time":  "00:47:09.000 --\u003e 00:47:18.000"
+                                                     },
+                                                     {
+                                                         "line":  1036,
+                                                         "quote":  "Trinity: 我们可以只摆厕所，不摆厨房。",
+                                                         "verbatim_source_line":  "Trinity: 我们可以只摆厕所，不摆厨房。",
+                                                         "source_time":  "00:47:22.000 --\u003e 00:47:25.000"
+                                                     },
+                                                     {
+                                                         "line":  1084,
+                                                         "quote":  "Trinity: 那我们就这样调整吧。",
+                                                         "verbatim_source_line":  "Trinity: 那我们就这样调整吧。",
+                                                         "source_time":  "00:48:18.000 --\u003e 00:48:20.000"
+                                                     },
+                                                     {
+                                                         "line":  1090,
+                                                         "quote":  "JIAYU LIU: 那我们调整一下吧。",
+                                                         "verbatim_source_line":  "JIAYU LIU: 那我们调整一下吧。",
+                                                         "source_time":  "00:48:20.000 --\u003e 00:48:23.000"
+                                                     }
+                                                 ],
+                      "owner_assignment_basis":  "用户新规则：明确负责人或任务上下文相关参与者；身份映射核实不等于唯一责任已确认。",
+                      "record_id":  "reczz28dljgaPgZU",
+                      "revision_status":  "project_owner_readback_verified"
+                  },
+                  {
+                      "id":  "SZY-09",
+                      "source_file":  "盛緻苑實體班.txt",
+                      "project":  "業主群組內容跟進",
+                      "task":  "整理并回复业主群组尚未解答的较难问题",
+                      "owner_candidate":  "Trinity",
+                      "decision_status":  "action",
+                      "priority_suggestion":  "high",
+                      "deadline":  null,
+                      "deadline_raw":  "稍后五六点；会议日期未知",
+                      "notes":  "本次只创建跟进任务，不执行任何客户消息发送。",
+                      "evidence":  [
+                                       {
+                                           "line":  1288,
+                                           "quote":  "Trinity: 等一下，我們要開始podcast第二輪城回答到還有一些比較難的問題，看看有沒有空清一清理完之後就可以開podcast。",
+                                           "verbatim_source_line":  "Trinity: 等一下，我們要開始podcast第二輪城回答到還有一些比較難的問題，看看有沒有空清一清理完之後就可以開podcast。",
+                                           "source_time":  "00:51:45.000 --\u003e 00:51:59.000"
+                                       },
+                                       {
+                                           "line":  1291,
+                                           "quote":  "Trinity: 我大概一陣間大概五六點嘅時候，我入去答一下吖。",
+                                           "verbatim_source_line":  "Trinity: 我大概一陣間大概五六點嘅時候，我入去答一下吖。",
+                                           "source_time":  "00:51:59.000 --\u003e 00:52:05.000"
+                                       }
+                                   ],
+                      "import_status":  "updated_project_owner_readback_verified",
+                      "record_id":  "reczz28dlJzT5HOY",
+                      "owner_candidates":  [
+                                               "Trinity"
+                                           ],
+                      "owner_assignment_basis":  "用户新规则：明确负责人或任务上下文相关参与者；身份映射核实不等于唯一责任已确认。",
+                      "revision_status":  "project_owner_readback_verified"
+                  },
+                  {
+                      "id":  "C6-18",
+                      "source_file":  "Crystal的Zoom會議6.txt",
+                      "project":  "後續實體班籌備",
+                      "task":  "另开专题会确定下一次实体班的目标产品、场地、内容和提前宣传方案",
+                      "owner_candidate":  null,
+                      "decision_status":  "action",
+                      "priority_suggestion":  "normal",
+                      "deadline":  null,
+                      "deadline_raw":  null,
+                      "evidence":  [
+                                       {
+                                           "line":  373,
+                                           "quote":  "Trinity: 我額，跟住我想確認一下我哋下一次實體班嘅嗰個。",
+                                           "verbatim_source_line":  "Trinity: 我額，跟住我想確認一下我哋下一次實體班嘅嗰個。",
+                                           "source_time":  "00:38:47.000 --\u003e 00:38:53.000"
+                                       },
+                                       {
+                                           "line":  376,
+                                           "quote":  "Trinity: 一些基礎的資訊，例如我們確實想推銷什麼和場地。還有我想和大家介紹一下，在上一次的實體課有什麼需要改進的地方。",
+                                           "verbatim_source_line":  "Trinity: 一些基礎的資訊，例如我們確實想推銷什麼和場地。還有我想和大家介紹一下，在上一次的實體課有什麼需要改進的地方。",
+                                           "source_time":  "00:38:53.000 --\u003e 00:39:05.000"
+                                       },
+                                       {
+                                           "line":  1015,
+                                           "quote":  "Crystal: 這個需要再抽開來討論。是的，會議大家先更新一下。",
+                                           "verbatim_source_line":  "Crystal: 這個需要再抽開來討論。是的，會議大家先更新一下。",
+                                           "source_time":  "01:19:02.000 --\u003e 01:19:23.000"
+                                       },
+                                       {
+                                           "line":  1018,
+                                           "quote":  "Crystal: 大家說到這些專題，要抽出來講一個會議，這樣會比較效果，這個會是不會完的。",
+                                           "verbatim_source_line":  "Crystal: 大家說到這些專題，要抽出來講一個會議，這樣會比較效果，這個會是不會完的。",
+                                           "source_time":  "01:19:23.000 --\u003e 01:19:40.000"
+                                       },
+                                       {
+                                           "line":  2008,
+                                           "quote":  "Crystal: 我。我覺得真係實體班要真係單獨分開仔細去講，因為我哋之前做，一開始做畫紙，你哋嗰班我哋係三個人用咗一個月嘅時間去諗你哋要點樣去，即係策劃成件事，咁呢個係付出咗經歷，然後嗰個反應真係好嘅，但係呢段時間我哋有太多。",
+                                           "verbatim_source_line":  "Crystal: 我。我覺得真係實體班要真係單獨分開仔細去講，因為我哋之前做，一開始做畫紙，你哋嗰班我哋係三個人用咗一個月嘅時間去諗你哋要點樣去，即係策劃成件事，咁呢個係付出咗經歷，然後嗰個反應真係好嘅，但係呢段時間我哋有太多。",
+                                           "source_time":  "02:08:51.000 --\u003e 02:09:10.000"
+                                       },
+                                       {
+                                           "line":  2011,
+                                           "quote":  "Crystal: 其實實體班具體點樣去策劃點樣去做promotion，點樣提早去，因為之前先邀請咗我哋，係一對一私，想邀請咗我哋之前有設計到嘅部分，但係後邊我哋做實體班設計部分，我哋討論嘅比較少，呢個我覺得係上次嘅問題。",
+                                           "verbatim_source_line":  "Crystal: 其實實體班具體點樣去策劃點樣去做promotion，點樣提早去，因為之前先邀請咗我哋，係一對一私，想邀請咗我哋之前有設計到嘅部分，但係後邊我哋做實體班設計部分，我哋討論嘅比較少，呢個我覺得係上次嘅問題。",
+                                           "source_time":  "02:09:10.000 --\u003e 02:09:36.000"
+                                       }
+                                   ],
+                      "import_status":  "created_with_project_and_owners_readback_verified",
+                      "owner_candidates":  [
+                                               "Trinity",
+                                               "Crystal"
+                                           ],
+                      "owner_context_evidence":  [
+                                                     {
+                                                         "line":  298,
+                                                         "quote":  "Crystal: 如果大家最近開工太重，實體班押後一個兩個禮拜crystal。你有沒有補充？",
+                                                         "verbatim_source_line":  "Crystal: 如果大家最近開工太重，實體班押後一個兩個禮拜crystal。你有沒有補充？",
+                                                         "source_time":  "00:33:45.000 --\u003e 00:34:00.000"
+                                                     },
+                                                     {
+                                                         "line":  373,
+                                                         "quote":  "Trinity: 我額，跟住我想確認一下我哋下一次實體班嘅嗰個。",
+                                                         "verbatim_source_line":  "Trinity: 我額，跟住我想確認一下我哋下一次實體班嘅嗰個。",
+                                                         "source_time":  "00:38:47.000 --\u003e 00:38:53.000"
+                                                     },
+                                                     {
+                                                         "line":  376,
+                                                         "quote":  "Trinity: 一些基礎的資訊，例如我們確實想推銷什麼和場地。還有我想和大家介紹一下，在上一次的實體課有什麼需要改進的地方。",
+                                                         "verbatim_source_line":  "Trinity: 一些基礎的資訊，例如我們確實想推銷什麼和場地。還有我想和大家介紹一下，在上一次的實體課有什麼需要改進的地方。",
+                                                         "source_time":  "00:38:53.000 --\u003e 00:39:05.000"
+                                                     },
+                                                     {
+                                                         "line":  1015,
+                                                         "quote":  "Crystal: 這個需要再抽開來討論。是的，會議大家先更新一下。",
+                                                         "verbatim_source_line":  "Crystal: 這個需要再抽開來討論。是的，會議大家先更新一下。",
+                                                         "source_time":  "01:19:02.000 --\u003e 01:19:23.000"
+                                                     },
+                                                     {
+                                                         "line":  1018,
+                                                         "quote":  "Crystal: 大家說到這些專題，要抽出來講一個會議，這樣會比較效果，這個會是不會完的。",
+                                                         "verbatim_source_line":  "Crystal: 大家說到這些專題，要抽出來講一個會議，這樣會比較效果，這個會是不會完的。",
+                                                         "source_time":  "01:19:23.000 --\u003e 01:19:40.000"
+                                                     },
+                                                     {
+                                                         "line":  2008,
+                                                         "quote":  "Crystal: 我。我覺得真係實體班要真係單獨分開仔細去講，因為我哋之前做，一開始做畫紙，你哋嗰班我哋係三個人用咗一個月嘅時間去諗你哋要點樣去，即係策劃成件事，咁呢個係付出咗經歷，然後嗰個反應真係好嘅，但係呢段時間我哋有太多。",
+                                                         "verbatim_source_line":  "Crystal: 我。我覺得真係實體班要真係單獨分開仔細去講，因為我哋之前做，一開始做畫紙，你哋嗰班我哋係三個人用咗一個月嘅時間去諗你哋要點樣去，即係策劃成件事，咁呢個係付出咗經歷，然後嗰個反應真係好嘅，但係呢段時間我哋有太多。",
+                                                         "source_time":  "02:08:51.000 --\u003e 02:09:10.000"
+                                                     },
+                                                     {
+                                                         "line":  2011,
+                                                         "quote":  "Crystal: 其實實體班具體點樣去策劃點樣去做promotion，點樣提早去，因為之前先邀請咗我哋，係一對一私，想邀請咗我哋之前有設計到嘅部分，但係後邊我哋做實體班設計部分，我哋討論嘅比較少，呢個我覺得係上次嘅問題。",
+                                                         "verbatim_source_line":  "Crystal: 其實實體班具體點樣去策劃點樣去做promotion，點樣提早去，因為之前先邀請咗我哋，係一對一私，想邀請咗我哋之前有設計到嘅部分，但係後邊我哋做實體班設計部分，我哋討論嘅比較少，呢個我覺得係上次嘅問題。",
+                                                         "source_time":  "02:09:10.000 --\u003e 02:09:36.000"
+                                                     }
+                                                 ],
+                      "owner_assignment_basis":  "用户新规则：明确负责人或任务上下文相关参与者；身份映射核实不等于唯一责任已确认。",
+                      "record_id":  "reczz28dljgaPPND",
+                      "revision_status":  "project_owner_readback_verified"
+                  }
+              ],
+    "review_status":  "四份原文全文复核，历史相对日期未换算；2026-11-25导入前已刷新字段和全表记录。",
+    "revision_status":  "15条新增和13条覆盖均已回读确认；无待执行的Project/Owner覆盖。"
+}
